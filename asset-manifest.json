@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/Search_repositories/static/css/main.5a25c0f7.css",
+    "main.js": "/Search_repositories/static/js/main.09eaa315.js",
+    "index.html": "/Search_repositories/index.html",
+    "main.5a25c0f7.css.map": "/Search_repositories/static/css/main.5a25c0f7.css.map",
+    "main.09eaa315.js.map": "/Search_repositories/static/js/main.09eaa315.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5a25c0f7.css",
+    "static/js/main.09eaa315.js"
+  ]
+}
