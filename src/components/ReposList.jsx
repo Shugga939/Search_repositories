@@ -1,5 +1,6 @@
 import Repo from "./Repo";
 import List from "./List";
+import completion from "../helpers/completion";
 
 function RepoList({repos, summary}) {
 
@@ -25,7 +26,7 @@ function RepoList({repos, summary}) {
           <span className="repo__views"> Просмотры </span>
         </div>
         <List items={repos} renderItem={renderItem}/>
-        <h3 className="repo__sum">{`Найдено всего ${summary} репозиториев`}</h3>
+        <h3 className="repo__sum">{`Найдено всего ${completion(summary)}`}</h3>
         </>
       :
         <>
