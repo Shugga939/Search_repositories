@@ -32,7 +32,7 @@ function RepoList({repos, summary}) {
           {summary===0 ? 
             <h2 className="repo-list__message"> Ничего не нашлось </h2>
           :
-            <h2 className="repo-list__message"> Список пуст </h2>
+            ''
           }
         </>
       }
